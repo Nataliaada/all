@@ -13,5 +13,5 @@ while (i <= B)
 St = St*A;
 i++;
 }
-Console.Write(St);
+Console.WriteLine($"{A} в стенени {B} = {St}");
         

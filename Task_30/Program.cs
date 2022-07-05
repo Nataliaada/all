@@ -9,7 +9,7 @@ var rnd = new Random();
 
 while (index < array.Length)
 {
-    array[index] = rnd.Next(0, 2);
+  array[index] = rnd.Next(0, 2);
   index++;
 }
 for ( int i  = 0; i < array.Length; i ++)
